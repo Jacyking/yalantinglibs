@@ -1,8 +1,8 @@
 name: Ubuntu 22.04 (llvm cov)
 
 on:
-  pull_request_target:
-    branches: [ doc ]
+  # pull_request_target:
+  #   branches: [ doc ]
 
 jobs:
   build:

@@ -1,10 +1,10 @@
 name: cleanup closed branch's caches
 on:
-  pull_request:
-    types:
-      - closed
+  # pull_request:
+  #   types:
+  #     - closed
   # cleanup closed branch's caches after pull request
-  workflow_dispatch:
+  # workflow_dispatch:
 
 jobs:
   clean_caches:
